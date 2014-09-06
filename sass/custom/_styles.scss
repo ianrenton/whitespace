@@ -8,9 +8,9 @@ html {
 }
 
 body {
-	font-family: "Open Sans" !important;
-	font-size: 1em;
-	max-width: 850px;
+	font-family: $serif;
+	font-size: 1.2em;
+	max-width: 800px;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 
@@ -19,11 +19,13 @@ body {
 		text-align: center;
 		padding-left: 0px;
 		padding-right: 0px;	
+                color: black;
+                font-style: italic;
 
 		h1 {
 			a, a:visited, a:hover {
-				color: #8C8C8C;
-				font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+	//			color: #8C8C8C;
+		//		font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
 			}
 		}
 	}
@@ -115,8 +117,9 @@ article {
 
 	header {
 		h1.entry-title {
-			font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
-			font-weight: 400;
+		//	font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+		//	font-weight: 400;
+                font-style: italic;
 		}
 	}
 }
@@ -146,8 +149,9 @@ article {
 
 		h1 {
 			a {
-				font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
-				font-weight: 400;
+			//	font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+			//	font-weight: 400;
+                                font-style: italic;
 			}
 
 			a:hover {
@@ -158,9 +162,10 @@ article {
 
 	.hentry {
 		h1.entry-title {
-			font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
-			font-weight: 400;
+	//		font-family: "Fjalla One","Helvetica Neue",Arial,sans-serif;
+	//		font-weight: 400;
 			font-size: 2.2em;
+                        font-style: italic;
 		}
 	}
 	
