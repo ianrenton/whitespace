@@ -7,10 +7,10 @@ $pad-medium: 35px !default;
 $pad-wide: 55px !default;
 
 // Sidebar widths used in media queries
-$sidebar-width-medium: 240px !default;
+$sidebar-width-medium: 200px !default;
 $sidebar-pad-medium: 15px !default;
 $sidebar-pad-wide: 20px !default;
-$sidebar-width-wide: 300px !default;
+$sidebar-width-wide: 200px !default;
 
 $indented-lists: false !default;
 
@@ -96,6 +96,7 @@ body {
 
 aside.sidebar {
 //  float: right;
+  width: 200px;
   position:absolute;
   right: -260px;
   padding: 0 $pad-min 1px;
@@ -152,7 +153,7 @@ body.sidebar-footer {
     }
   }
   aside.sidebar {
-    width: $sidebar-width-medium - $sidebar-pad-medium*2;
+//    width: $sidebar-width-medium - $sidebar-pad-medium*2;
     padding: 0 $sidebar-pad-medium $sidebar-pad-medium;
     background: none;
     clear: none;
@@ -178,7 +179,7 @@ body.sidebar-footer {
     }
   }
   aside.sidebar {
-    width: $sidebar-width-wide - $sidebar-pad-wide*2;
+//    width: $sidebar-width-wide - $sidebar-pad-wide*2;
     padding: 1.2em $sidebar-pad-wide $sidebar-pad-wide;
 /*    .collapse-sidebar & {
       padding: { left: $pad-wide; right: $pad-wide; }
